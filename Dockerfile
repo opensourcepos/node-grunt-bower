@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:10
+FROM node:18-alpine
 RUN apk add --no-cache git 
 
 RUN npm install -g grunt grunt-cli bower
